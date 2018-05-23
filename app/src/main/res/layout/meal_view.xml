@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/meal_Name_TextView"
+        android:layout_width="108dp"
+        android:layout_height="109dp" />
+
+    <TextView
+        android:id="@+id/meal_Preparer_TextView"
+        android:layout_width="87dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/meal_Name_TextView" />
+
+    <TextView
+        android:id="@+id/meal_Calories_TextView"
+        android:layout_width="53dp"
+        android:layout_height="109dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="137dp" />
+
+    <TextView
+        android:id="@+id/meal_Desc_TextView"
+        android:layout_width="136dp"
+        android:layout_height="109dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="109dp"
+        android:background="?android:attr/listDivider" />
+
+</RelativeLayout>

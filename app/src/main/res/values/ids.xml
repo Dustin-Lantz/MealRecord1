@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Home Activity Ids -->
+    <item type="id" name="Home_Screen" />
+    <item type="id" name="add_button" />
+    <item type="id" name="edit_button" />
+    <item type="id" name="delete_button" />
+    <item type="id" name="view_button" />
+    <item type="id" name="settings_button" />
+
+
+    <!-- Stuff for the adapter/the list view-->
+
+    <item type="id" name="meal_Name_TextView" />
+    <item type="id" name="meal_Preparer_TextView" />
+    <item type="id" name="meal_Calories_TextView" />
+    <item type="id" name="meal_Desc_TextView" />
+
+
+    <item type="id" name="object_List_Textfield" />
+
+
+    <!-- Stuff for the oject adder-->
+    <item type="id" name="add_Name_EditText" />
+    <item type="id" name="add_Preparer_EditText" />
+    <item type="id" name="add_Calories_EditText" />
+    <item type="id" name="add_Desc_EditText" />
+
+    <!-- Stuff for the oject editor-->
+    <item type="id" name="edit_Name_EditText" />
+    <item type="id" name="edit_Preparer_EditText" />
+    <item type="id" name="edit_Calories_EditText" />
+    <item type="id" name="edit_Desc_EditText" />
+
+    <!-- Stuff for the login-->
+    <item type="id" name="login_Password_Textfield" />
+
+    <!-- Stuff for the settings-->
+    <item type="id" name="settings_Password" />
+    <item type="id" name="settings_Confirm_Pass" />
+    <item type="id" name="settings_Confirm_Button" />
+
+</resources>
